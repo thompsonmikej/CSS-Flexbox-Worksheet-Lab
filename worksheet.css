@@ -77,11 +77,20 @@ display: flex;
 /* Number Ten */
 .container-10 {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* Number Eleven */
 .container-11 {
     display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        transform: rotate(180deg);
 }
 
 /* Number Twelve */
